@@ -167,7 +167,7 @@ img {
 /* --- Portfolio --- */
 .portfolio {
 	padding-top: 80px;
-	padding-bottom: 115px;
+	padding-bottom: 90px;
 	background-color: #f4f5f6;
 }
 .portfolio-header {
@@ -182,6 +182,7 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 70px;
 }
 .card {
 	margin-bottom: 30px;
@@ -322,7 +323,7 @@ path {
 
 /* --- Project --- */
 .project-wrapper {
-	padding-bottom: 50px;
+	padding-bottom: 80px;
 	background-color: #f4f5f6;
 }
 .project {
@@ -382,8 +383,6 @@ path {
 	height: 60px;
 	padding-left: 30px;
 	padding-right: 30px;
-	margin-top: 50px;
-	margin-bottom: 100px;
 	line-height: 56px;
 	border: 3px solid #00cccc;
 	border-radius: 50px;
@@ -398,6 +397,12 @@ path {
 	background-color: #00cccc;
 	color: #fff;
 	box-shadow: 0px 5px 25px #00cccc;
+}
+.project-content {
+	margin-bottom: 55px;
+}
+.btn-more {
+	text-align: center;
 }
 .content-inner {
 	padding: 50px 0;
@@ -431,7 +436,7 @@ path {
 	margin-bottom: 30px;
 	max-width: 430px;
 	background-color: #fff;
-	box-shadow: 0px 10px 40px rgb(217, 214, 194);
+	box-shadow: 0px 10px 40px rgba(15, 35, 54, 0.3);
 	transition: transform 0.2s ease-in;
 	border-radius: 15px;
 }

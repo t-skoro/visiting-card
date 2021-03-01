@@ -1,7 +1,9 @@
 @media (max-width: 1140px) {
-	.card {
+	.card,
+	.card-services {
 		width: calc(50% - 15px);
 	}
+
 	.footer {
 		padding-top: 40px;
 		padding-bottom: 60px;
@@ -19,6 +21,16 @@
 	}
 }
 @media (max-width: 992px) {
+	.header {
+		padding-right: 10px;
+		padding-left: 60px;
+	}
+	.header-title {
+		font-size: 42px;
+	}
+	.header-subtitle {
+		font-size: 14px;
+	}
 	.logo-image {
 		max-width: 110px;
 	}
@@ -77,7 +89,7 @@
 		display: inline-block;
 	}
 	.side-menu-item {
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 	}
 	.side-menu-list > * + * {
 		margin-left: 0;
@@ -117,11 +129,11 @@
 	.sidebar--opened .sidebar-burger {
 		display: none;
 	}
+	.project {
+		padding-left: 45px;
+	}
 	.project-img {
 		margin-bottom: 20px;
-	}
-	.project-btn-back {
-		display: none;
 	}
 	.content-inner {
 		padding-top: 40px;
@@ -146,15 +158,14 @@
 }
 
 @media (max-width: 768px) {
-	.header {
-		padding-right: 10px;
-		padding-left: 60px;
-	}
 	.header-title {
 		font-size: 32px;
 	}
 	.header-subtitle {
 		font-size: 12px;
+	}
+	.side-menu-item {
+		margin-bottom: 15px;
 	}
 	.portfolio {
 		padding-top: 40px;
@@ -169,6 +180,10 @@
 	}
 	.card {
 		max-width: 530px;
+		width: 100%;
+	}
+	.card-services {
+		max-width: 400px;
 		width: 100%;
 	}
 	.card:nth-last-child(2) {
@@ -190,6 +205,9 @@
 	.card p {
 		font-size: 14px;
 	}
+	.project-btn-back {
+		display: none;
+	}
 	.footer-copyright-name {
 		font-size: 18px;
 		margin-bottom: 5px;
@@ -209,9 +227,6 @@
 		position: absolute;
 		bottom: 20px;
 		right: 20px;
-	}
-	.project {
-		padding-left: 45px;
 	}
 	.project-header {
 		font-size: 26px;
