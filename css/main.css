@@ -43,6 +43,7 @@ img {
 }
 .sidebar--project {
 	position: relative;
+	background-color: #00cccc;
 }
 .sidebar-logo {
 	display: inline-block;
