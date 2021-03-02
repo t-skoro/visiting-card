@@ -29,7 +29,7 @@
 		font-size: 42px;
 	}
 	.header-subtitle {
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.logo-image {
 		max-width: 110px;
@@ -162,7 +162,7 @@
 		font-size: 32px;
 	}
 	.header-subtitle {
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.side-menu-item {
 		margin-bottom: 15px;
@@ -182,14 +182,20 @@
 		max-width: 530px;
 		width: 100%;
 	}
+	.services-title {
+		font-size: 18px;
+	}
 	.card-services {
 		max-width: 400px;
 		width: 100%;
 	}
-	.card:nth-last-child(2) {
-		margin-bottom: 30px;
+	.card-services-title {
+		font-size: 18px;
 	}
 	.card-services:nth-last-child(2) {
+		margin-bottom: 30px;
+	}
+	.card:nth-last-child(2) {
 		margin-bottom: 30px;
 	}
 	.card-link {
@@ -234,6 +240,14 @@
 	}
 	.content-inner-subtitle {
 		font-size: 18px;
+	}
+	.services-image {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	.services-image-item {
+		max-width: 70%;
 	}
 	.project-img {
 		margin-bottom: 20px;
